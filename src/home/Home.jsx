@@ -1,5 +1,5 @@
 import "./Homee.css";
-
+import img from "../img/avataaars.svg"
 export default function Home() {
     return (
         <>
@@ -8,7 +8,7 @@ export default function Home() {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-md-6 col-12">
                             <div className="img">
-                                <img src="../../img/avataaars.svg" alt="" />
+                                <img src={img} alt="" />
                             </div>
                             <h1 className=" text-center">START FRAMEWORK</h1>
                             <div className="icon3 text-center">
